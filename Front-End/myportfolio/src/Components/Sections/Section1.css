@@ -8,7 +8,6 @@
 }
 
 .section1 .name:hover {
-    /* font-size: 80px; */
     transform: scale(1.1);
     color: rgb(68, 68, 68);
     
