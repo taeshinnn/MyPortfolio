@@ -1,14 +1,13 @@
-.section1 {
+.section1body {
     text-align: center;
 }
 
-.section1 .name {
+.section1body .name {
     font-size: 70px;
     transition: 0.3s;
 }
 
-.section1 .name:hover {
+.section1body .name:hover {
     transform: scale(1.1);
     color: rgb(68, 68, 68);
-    
 }

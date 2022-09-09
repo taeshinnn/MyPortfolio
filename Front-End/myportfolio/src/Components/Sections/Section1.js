@@ -3,7 +3,7 @@ import React from "react";
 
 function Section1() {
     return (
-      <div className='section1'>
+      <div className='section1body'>
         <h1>
             Hi, my name is
         </h1>

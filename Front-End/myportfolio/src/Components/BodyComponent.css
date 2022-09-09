@@ -16,12 +16,14 @@
   scroll-snap-align: start;
 }
 
-.container .section1 {
-  background-color: rgb(255, 255, 255);
+.section1 {
+  /* background-color: rgb(255, 255, 255); */
+  background: linear-gradient(rgb(255, 255, 255) 80%, rgb(245,245,247) 100%);
 }
 
 .container .section2 {
-  background-color: rgb(245,245,247);
+  /* background-color: rgb(245,245,247); */
+  background: linear-gradient(rgb(245,245,247) 80%, rgb(235,235,237) 100%);
 }
 
 .container .section3 {

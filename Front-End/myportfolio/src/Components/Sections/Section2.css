@@ -1,0 +1,41 @@
+.section2body {
+    width: 100%;
+}
+
+.pic1 {
+    float: left;
+    height: 80vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aboutMe {
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.aboutMe h1{
+font-size: 3rem;
+}
+
+.breakLine {
+    background-color: black;
+    width: 40vw;
+    height: 0.2vh;
+    float: right;
+    margin-top: 1%;
+}
+
+.education {
+    margin-top: 5%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.education .school {
+    margin-top: 2%;
+}
+
+.education .school div {
+    padding-top: 1%;
+}

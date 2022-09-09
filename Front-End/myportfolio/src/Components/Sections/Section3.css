@@ -1,0 +1,70 @@
+.gridContainer {
+    display: grid;
+    height: 85vh;
+    grid-template-columns: 44vw 44vw;
+    column-gap: 2vw; 
+}
+
+.project {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.projectGrid {
+    display: grid;
+    height: 80%;
+    grid-template-columns: 20vw 20vw;
+    column-gap: 2vw;
+    row-gap: 2vw; 
+}
+
+.projectGrid img {
+    margin-top: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 18vh;
+    object-fit: contain;
+}
+
+.projectGrid h6 {
+    text-align: center;
+}
+
+.projectGrid h6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.projectGrid .project1 {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 15px rgba(139, 139, 139, 0.722);
+    padding: 3%;
+}
+
+
+.projectGrid .project2 {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 15px rgba(139, 139, 139, 0.722);
+    padding: 3%;
+}
+
+.projectGrid .project3 {
+    background-color: rgba(255, 255, 255, 1);
+    grid-column-end: span 2;
+    box-shadow: 5px 5px 15px rgba(139, 139, 139, 0.722);
+    padding: 3%;
+}
+
+
+.skill {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
