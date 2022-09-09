@@ -1,0 +1,12 @@
+.footerBody {
+    height: 90%;
+}
+
+.socialMedia {
+    display: inline-flex;
+}
+
+.socialMedia .icon {
+    /* padding: 23%; */
+    /* background-color: antiquewhite; */
+}

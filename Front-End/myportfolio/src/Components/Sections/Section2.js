@@ -1,6 +1,8 @@
 import './Section2.css';
 import React from "react";
 
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
+
 function Section2() {
     return (
       <div className='section2body'>
@@ -15,23 +17,27 @@ function Section2() {
                 or UX/UI design. Ready to learn and work hands-on with
                 self-discipline and motivation to enhance skills and abilities.
             </p>
-            <a href={require('../../Files/resume.pdf')} download>Download CV</a>
+
+            <div className='downloadBtn'>
+                <FileDownloadIcon/>
+                <a href={require('../../Files/resume.pdf')} download>Download CV</a>
+            </div>
         </div>
         
         <div className='education'>
-            <h3>Education History</h3>
+            <h2>Education History</h2>
             <div className='breakLine'></div>
             <div className='school'>
                 <div>
                     <h1>Thammasat University</h1>
-                    <h3>Engineering, Software Engineering</h3>
+                    <h4>Engineering, Software Engineering</h4>
                     <p>2019 - 2023</p>
                     <p>GPA 3.78</p>
                 </div>
 
                 <div>
                     <h1>Nawaminthrachinuthit Bodindecha School</h1>
-                    <h3>Math, Science in English Program</h3>
+                    <h4>Math, Science in English Program</h4>
                     <p>2013 - 2019</p>
                     <p>GPA 3.60</p>
                 </div>

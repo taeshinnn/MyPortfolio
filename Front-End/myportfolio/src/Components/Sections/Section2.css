@@ -4,7 +4,7 @@
 
 .pic1 {
     float: left;
-    height: 80vh;
+    height: 85vh;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -15,7 +15,17 @@
 }
 
 .aboutMe h1{
-font-size: 3rem;
+    font-size: 3rem;
+}
+
+.downloadBtn {
+    display: inline-flex;
+    margin-top: 1%;
+    width: 8vw;
+}
+
+.downloadBtn a {
+    margin-left: 5%;
 }
 
 .breakLine {
@@ -23,13 +33,17 @@ font-size: 3rem;
     width: 40vw;
     height: 0.2vh;
     float: right;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 
 .education {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-right: 5%;
     text-align: right;
+}
+
+.education h2 {
+    font-size: 2.5rem;
 }
 
 .education .school {

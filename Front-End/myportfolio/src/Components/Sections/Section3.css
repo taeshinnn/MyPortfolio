@@ -1,3 +1,8 @@
+.section3body {
+    width: 90%;
+    /* height: 80vh; */
+}
+
 .gridContainer {
     display: grid;
     height: 85vh;
@@ -5,66 +10,32 @@
     column-gap: 2vw; 
 }
 
-.project {
-    /* background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 20px;
-    font-size: 30px;
-    text-align: left;
+.projectExp {
+    font-size: 2.5rem;
 }
 
-.projectGrid {
-    display: grid;
-    height: 80%;
-    grid-template-columns: 20vw 20vw;
-    column-gap: 2vw;
-    row-gap: 2vw; 
+.breakLine2 {
+    background-color: black;
+    width: 40vw;
+    height: 0.2vh;
+    float: left;
 }
 
-.projectGrid img {
-    margin-top: 1%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: 18vh;
-    object-fit: contain;
+.projects {
+    clear: left;
+    margin-top: 6vh;
 }
 
-.projectGrid h6 {
-    text-align: center;
+.projectContent {
+    margin-left: 3%;
+    width: 60vw;
 }
 
-.projectGrid h6 a {
+.gitLink {
+    background-color: rgb(65, 65, 65);
+    padding: 0.5% 3% 0.5% 3%;
     text-decoration: none;
-    color: black;
-}
-
-.projectGrid .project1 {
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 5px 5px 15px rgba(139, 139, 139, 0.722);
-    padding: 3%;
-}
-
-
-.projectGrid .project2 {
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 5px 5px 15px rgba(139, 139, 139, 0.722);
-    padding: 3%;
-}
-
-.projectGrid .project3 {
-    background-color: rgba(255, 255, 255, 1);
-    grid-column-end: span 2;
-    box-shadow: 5px 5px 15px rgba(139, 139, 139, 0.722);
-    padding: 3%;
-}
-
-
-.skill {
-    /* background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    color: white;
+    border-radius: 10%;
+    margin-top: 2%;
 }

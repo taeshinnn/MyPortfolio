@@ -16,6 +16,15 @@
   scroll-snap-align: start;
 }
 
+.container .section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 30vh;
+  scroll-snap-align: start;
+}
+
 .section1 {
   /* background-color: rgb(255, 255, 255); */
   background: linear-gradient(rgb(255, 255, 255) 80%, rgb(245,245,247) 100%);
@@ -29,3 +38,8 @@
 .container .section3 {
   background-color: rgb(235,235,237);
 }
+
+.container .section4 {
+  background-color: rgb(55,55,57);
+}
+

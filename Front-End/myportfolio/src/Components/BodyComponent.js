@@ -4,7 +4,7 @@ import React from "react";
 import Section1 from './Sections/Section1';
 import Section2 from './Sections/Section2';
 import Section3 from './Sections/Section3';
-
+import Footer from './Footer';
 
 function BodyComponent() {
     return (
@@ -18,6 +18,9 @@ function BodyComponent() {
         <section className='section3' id='section3'>
           <Section3/>
         </section>
+        <div className='section4' id='section4'>
+          <Footer/>
+        </div>
       </div>
     );
   }
