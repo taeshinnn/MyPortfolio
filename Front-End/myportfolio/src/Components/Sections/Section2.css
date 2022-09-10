@@ -53,3 +53,43 @@
 .education .school div {
     padding-top: 1%;
 }
+
+@media only screen and (max-height: 1200px) {
+   
+    .aboutMe h1{
+        font-size: 2.5rem;
+    }
+
+    .pic1 {
+        height: 55vh;
+    }
+
+    .downloadBtn {
+        width: 15vw;
+    }
+
+    .breakLine {
+        height: 0.1vh;
+        width: 55vw;
+    }
+
+    .education {
+        margin-top: 0%;
+        margin-right: 5%;
+        text-align: right;
+    }
+    
+    .education h2 {
+        font-size: 2rem;
+    }
+    
+    .education .school {
+        display: inline-flex;
+        justify-content:right;
+    }
+
+    .education .school div {
+        padding-top: 1%;
+        width: 30vw;
+    }
+}

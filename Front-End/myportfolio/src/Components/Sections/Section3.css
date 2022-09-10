@@ -1,6 +1,5 @@
 .section3body {
     width: 90%;
-    /* height: 80vh; */
 }
 
 .gridContainer {
@@ -38,4 +37,39 @@
     color: white;
     border-radius: 10%;
     margin-top: 2%;
+}
+
+@media only screen and (max-height: 1200px) {
+
+    .projectExp {
+        font-size: 2rem;
+    }
+
+    .breakLine2 {
+        width: 60vw;
+        height: 0.1vh;
+    }
+
+    .projects {
+        clear: left;
+        margin-top: 6vh;
+    }
+
+    .projects h2 {
+        font-size: large;
+    }
+
+    .projects h4 {
+        font-size: small;
+    }
+
+    .projects p {
+        font-size: small;
+    }
+
+    .projectContent {
+        margin-left: 3%;
+        width: 85vw;
+    }
+
 }

@@ -8,11 +8,25 @@
     display: inline-flex;
     width: 10vw;
     justify-content: space-between;
-
     margin-bottom: 5%;
 }
 
 .footerBody h4 {
     margin: 4%;
     color: white;
+}
+
+@media only screen and (max-height: 1200px) {
+    
+    .footerBody h4 {
+        margin: 4%;
+        color: white;
+        font-size: smaller;
+    }
+
+    .socialMedia {
+        width: 13vw;
+    }
+    
+
 }
