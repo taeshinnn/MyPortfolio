@@ -18,7 +18,7 @@ function BodyComponent() {
         <section className='section3' id='section3'>
           <Section3/>
         </section>
-        <div className='section4' id='section4'>
+        <div className='footer' id='footer'>
           <Footer/>
         </div>
       </div>

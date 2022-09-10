@@ -10,10 +10,13 @@ function Footer() {
     return (
         <div className='footerBody'>
             <div className='socialMedia'>
-                <InstagramIcon style={{ color: '#fff' }} fontSize='large' className='icon'/>
-                <GitHubIcon style={{ color: '#fff' }} fontSize='large' className='icon'/>
-                <LinkedInIcon style={{ color: '#fff' }} fontSize='large' className='icon'/>
+                <a href="https://github.com/taeshinnn"><GitHubIcon style={{ color: '#fff' }} fontSize='large' className='icon'/></a>
+                <a href="https://www.instagram.com/taeshinnn/"><InstagramIcon style={{ color: '#fff' }} fontSize='large' className='icon'/></a>
+                <a href="https://www.linkedin.com/in/taeshin-rochananond/"><LinkedInIcon style={{ color: '#fff' }} fontSize='large' className='icon'/></a>
             </div>
+            <h4>© Copyright. All Rights Reserved</h4>
+            <h4>by</h4>
+            <h4>Taeshin Rochananond</h4>
         </div>
     )
 }

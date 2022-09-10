@@ -1,12 +1,18 @@
 .footerBody {
-    height: 90%;
+    height: auto;
+    text-align: center;
+    width: 20vw;
 }
 
 .socialMedia {
     display: inline-flex;
+    width: 10vw;
+    justify-content: space-between;
+
+    margin-bottom: 5%;
 }
 
-.socialMedia .icon {
-    /* padding: 23%; */
-    /* background-color: antiquewhite; */
+.footerBody h4 {
+    margin: 4%;
+    color: white;
 }

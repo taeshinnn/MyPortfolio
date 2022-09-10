@@ -16,12 +16,12 @@
   scroll-snap-align: start;
 }
 
-.container .section4 {
+.container .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 30vh;
+  height: 22vh;
   scroll-snap-align: start;
 }
 
@@ -39,7 +39,7 @@
   background-color: rgb(235,235,237);
 }
 
-.container .section4 {
+.container .footer {
   background-color: rgb(55,55,57);
 }
 
