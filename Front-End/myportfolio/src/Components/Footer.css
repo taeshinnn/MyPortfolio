@@ -30,3 +30,41 @@
     
 
 }
+
+@media only screen and (max-width: 850px) {
+
+    .footerBody {
+        height: auto;
+        text-align: center;
+        width: 40vw;
+    }
+
+    .footerBody h4 {
+        margin: 4%;
+        color: white;
+        font-size: x-small;
+    }
+
+    .socialMedia {
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .footerBody {
+        height: auto;
+        text-align: center;
+        width: 70vw;
+    }
+
+    .footerBody h4 {
+        margin: 4%;
+        color: white;
+        font-size: x-small;
+    }
+
+    .socialMedia {
+        width: 40vw;
+    }
+}

@@ -56,7 +56,7 @@
 
 @media only screen and (max-height: 1200px) {
    
-    .aboutMe h1{
+    .aboutMe h1 {
         font-size: 2.5rem;
     }
 
@@ -91,5 +91,121 @@
     .education .school div {
         padding-top: 1%;
         width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .pic1 {
+        height: 45vh;
+    }
+
+    .breakLine {
+        width: 40vw;
+    }
+
+    .downloadBtn {
+        width: 25vw;
+    }
+
+    .downloadBtn a {
+        font-size: small;
+    }
+
+    .education {
+        margin-top: 0%;
+        margin-right: 5%;
+        text-align: right;
+    }
+    
+    .education h2 {
+        font-size: 2rem;
+    }
+    
+
+    .education .school h1 {
+        font-size: large;
+    }
+
+    .education .school h4 {
+        font-size: medium;
+    }
+
+    .education .school p {
+        font-size: small;
+    }
+
+    .education .school div {
+        padding-top: 1%;
+        width: 40vw;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+   
+    .aboutMe {
+        margin-left: 5%;
+    }
+    
+    .aboutMe h1 {
+        font-size: 1.5rem;
+    }
+
+    .aboutMe h3 {
+        font-size: medium;
+    }
+
+    .aboutMe p {
+        font-size: small;
+    }
+
+    .pic1 {
+        height: 30vh;
+    }
+
+    .downloadBtn {
+        width: 25vw;
+    }
+
+    .downloadBtn a {
+        font-size: x-small;
+    }
+
+    .breakLine {
+        height: 0.1vh;
+        width: 55vw;
+    }
+
+    .education {
+        margin-top: 0%;
+        margin-right: 5%;
+        text-align: right;
+    }
+    
+    .education h2 {
+        font-size: 1rem;
+    }
+    
+    .education .school {
+        display: inline-flex;
+        justify-content:right;
+    }
+
+    .education .school h1 {
+        font-size: medium;
+    }
+
+    .education .school h4 {
+        font-size: small;
+    }
+
+    .education .school p {
+        font-size: x-small;
+    }
+
+    .education .school div {
+        padding-top: 1%;
+        width: 45vw;
     }
 }

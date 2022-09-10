@@ -11,3 +11,15 @@
     transform: scale(1.1);
     color: rgb(68, 68, 68);
 }
+
+@media only screen and (max-width: 450px) {
+
+    .section1body .name {
+        font-size: xx-large;
+    }
+
+    .section1body h1 {
+        font-size: large;
+    }
+
+}

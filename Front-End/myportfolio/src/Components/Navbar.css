@@ -21,6 +21,10 @@
     color: black;
 }
 
+.mobile {
+    display: none;
+}
+
 @media only screen and (max-height: 1200px) {
 
     .navbar {
@@ -31,4 +35,34 @@
         font-size: 0.8rem;
     }
 
+}
+
+@media only screen and (max-width: 450px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .mobile {
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .MuiSpeedDial-fab {
+        background-color: red;
+      }
+
+    .mobile {
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        right: 0%;
+        width: 100%;
+        align-items: center;
+        justify-content:right;
+        padding-right: 5%; 
+    }
 }
